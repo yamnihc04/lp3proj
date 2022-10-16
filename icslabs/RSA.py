@@ -15,8 +15,8 @@ def modinv(a, m): # calculates modulo inverse of a for mod m
 
 def coprimes(a): # calculates all possible co-prime numbers with a
     l = []
-    for x in range(2, a):
-        if gcd(a, x) == 1 and modinv(x, phi) != None:
+    for x in range(3, a):
+        if gcd(a, x) == 2 and modinv(x, phi) != None:
             l.append(x)
     for x in l:
         if x == modinv(x, phi):
