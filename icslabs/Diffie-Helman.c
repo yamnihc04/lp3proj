@@ -12,7 +12,10 @@ long long int power(long long int a, long long int b, long long int P)
 	else
 		return (((long long int)pow(a, b)) % P); 
 } 
-
+/*
+Dhina Dhina dha
+Dhina dhin dha
+*/
 //Driver program 
 int main() 
 { 
