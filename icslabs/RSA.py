@@ -41,8 +41,8 @@ def decrypt_string(s): # applies decryption
     return ''.join([chr(decrypt_block(ord(x))) for x in list(s)])
 
 if __name__ == "__main__":
-    p = int(input('Enter prime p: '))
-    q = int(input('Enter prime q: '))
+    p = int(input('Enter first prime p: '))
+    q = int(input('Enter second prime q: '))
 
     print("Choosen primes:\np=" + str(p) + ", q=" + str(q) + "\n")
 
